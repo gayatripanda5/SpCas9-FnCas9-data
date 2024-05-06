@@ -5,8 +5,9 @@ This repository contains sample trajectory (.netcdf format) and topology (.prmto
 necessary simulation and analysis scripts. The repository consists of the following directories
 1. simulation_data : Starting structure, prmtop, incprd and netcdf file (w/o water and ions)
    
-# All the simulation input (prmtop, inpcrd) and trajectory files can be accessed from the drive link : 
+## All the simulation input (prmtop, inpcrd) and trajectory files can be accessed from the drive link : 
 https://drive.google.com/drive/u/0/folders/1QWCM3Ip4flx-d-e0MNzYq2qlxUyo7um5
+
 Due to different input requirements for different analysis, not all files have been uploaded to this repository. Any additional files can be provided upon request.
 
 2. analysis_scripts : Jupyter notebooks and Python scripts used for analysing simulation data.
