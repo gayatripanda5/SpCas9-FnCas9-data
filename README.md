@@ -12,7 +12,7 @@ Diagram represents the structure of data storage in a GitHub repository, detaili
 ## All the simulation input (prmtop, inpcrd) can be accessed from the drive link: 
 Simulation-related files for twelve protein-complex systems (four for each Cas9 orthologs) are available in a Google Drive folder. 
 The folder link is mentioned in the GitHub readme and provided here: https://drive.google.com/drive/u/0/folders/1QWCM3Ip4flx-d-e0MNzYq2qlxUyo7um5
-The Google Drive folder contains three subfolders named after the Cas9 orthologs: spcas9, fncas9, and stcas9. Additionally, there are compressed trajectory files for spcas9 and fncas9.
+The folder contains three subfolders named after the Cas9 orthologs: spcas9, fncas9, and stcas9. Additionally, there are compressed trajectory files for spcas9 and fncas9.
 Each ortholog folder has five subfolders:
 1. Four subfolders for on-target and off-target systems containing starting structure, topology,, and coordinate file.
 2. One mmgbsa subfolder containing input files used in MM-GBSA
