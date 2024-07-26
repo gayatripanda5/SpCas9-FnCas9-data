@@ -1,0 +1,14 @@
+parm ../St1Cas9-ter-EMX1_dry.prmtop
+trajin ../St1Cas9-ter-EMX1_nowat_nodt_400-500ns_1000frames.nc
+
+rms first out St1Cas9-ter-EMX1_backbone_atoms_auto_nodt-500ns.rms @N,CA,C,O
+nastruct NA naout St1cas9_nat-500ns_500frames.dat resrange 1125-1144,1203-1222
+nativecontacts :1125-1144,1203-1222 :559-665  writecontacts hnh-hybrid-contacts.txt  resout hnh-hybrid-St1-nat_residues.txt  distance 4 out hnh-hybrid-count.txt first
+nativecontacts :1125-1144,1203-1222  :1-36,466-514,679-819  writecontacts ruvc-hybrid-contacts.txt resout ruvc-hybrid-St1-nat_residues.txt  distance 4 out ruvc-hyrbid-count.txt  first 
+nativecontacts :1125-1144,1203-1222 :73-167,181-231  writecontacts rec1-hybrid-contacts.txt resout rec1-hybrid-St1-nat_residues.txt  distance 4 out rec1-hybrid-count.txt  first
+nativecontacts :1125-1144 :1203-1222  writecontacts sgRNA-tDNA-contacts.txt resout sgRNA-tDNA-St1-nat_residues.txt  distance 4 out sgRNA-tDNA-count.txt  first
+nativecontacts :1223-1230 :1195-1202  writecontacts ntDNA-tDNA-contacts.txt resout ntDNA-tDNA-St1-nat_residues.txt  distance 4 out ntDNA-tDNA-count.txt  first
+angle St1-nat-hybrid-angle :1222 :1207 :1195 out St1-nat-hybrid-angle.agr mass
+lie mmt :1203-1222 :1-1121 out St1_RNP-tDNA_energy.txt
+lie hybrid :1125-1144 :1203-1222 out hybrid_St1-nat_native_sgrna-tdna-lie-rep.txt
+run
