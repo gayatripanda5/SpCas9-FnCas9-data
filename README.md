@@ -1,22 +1,25 @@
-# Unravelling the novel determinants of specificity in CRISPR/Cas9 protein
+# Integrating accelerated molecular simulations and AI to elucidate Cas9 specificity factors
 Gayatri Panda and Arjun Ray∗
 
 This repository contains scripts and input files used for different analysis. 
-
 This Github repository contains four directories
 1.	spcas9-scripts 2. fncas9-scripts 3. stcas9-scripts 4. common-scripts. 
 Files present in these folders are described pictorially.
 Diagram represents the structure of data storage in a GitHub repository, detailing the organization of folders and files.
 ![image](https://github.com/user-attachments/assets/971d6ef2-b1fd-4a37-9e46-f603ecda6d4e)
 
- 
-
-   
 ## All the simulation input (prmtop, inpcrd) can be accessed from the drive link: 
-All the simulation related files including the (a) Starting structure PDB), (b) Topology file (prmtop), and (c) Coordinate files (inpcrd) for all twelve protein-complex systems (four for each Cas9 orthologs) are added in a google drive folder. 
-Link of this folder is also mentioned in the Github readme and is also added here. https://drive.google.com/drive/u/0/folders/1QWCM3Ip4flx-d-e0MNzYq2qlxUyo7um5
- 
-The google drive consists of three folders in the name of spcas9, fncas9, and stcas9, and compressed trajectories of spcas9 and fncas9. Each folder consist of five subfolders, four for every on-target and off-target system and one mmgbsa folder which contains all input files used in MM-GBSA. Each subfolder for on-target and off-target system contains a starting structure, prmtop and inpcrd file. 
+Simulation-related files for twelve protein-complex systems (four for each Cas9 orthologs) are available in a Google Drive folder. The folder link is mentioned in the GitHub readme and provided here: https://drive.google.com/drive/u/0/folders/1QWCM3Ip4flx-d-e0MNzYq2qlxUyo7um5
+The Google Drive folder contains three subfolders named after the Cas9 orthologs: spcas9, fncas9, and stcas9. Additionally, there are compressed trajectory files for spcas9 and fncas9.
+Each ortholog folder has five subfolders:
+1. Four subfolders for on-target and off-target systems
+2. One mmgbsa subfolder containing input files used in MM-GBSA
+Each on-target and off-target system subfolder includes:
+- A starting structure file (PDB format)
+- A topology file (prmtop format)
+- A coordinate file (inpcrd format)
+Diagram representing the structure of data storage in a Google drive folder.
+
 
 ![image](https://github.com/user-attachments/assets/60291d2f-27c3-4167-b2c6-520342167a02)
 
