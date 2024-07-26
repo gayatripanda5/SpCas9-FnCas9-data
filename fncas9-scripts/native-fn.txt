@@ -1,0 +1,9 @@
+parm ../5f9r_emx1_duplex_rep_dry.prmtop
+trajin ../5f9r_emx1_duplex_nowat_rep_250-450ns_1000frames.nc
+nativecontacts :1623-1642,1726-1745  :112-1037  writecontacts rec2-hybrid-contacts.txt resout rec2-hybrid-residues.txt distance 4 out rec2-hybrid-count.txt first
+nativecontacts :1623-1642,1726-1745 :932-1070 writecontacts hnh-hybrid-contacts.txt  resout hnh-hybrid-residues.txt  distance 4 out hnh-hybrid-count.txt first
+nativecontacts :1623-1642,1726-1745  :1-51,858-899,1088-1224  writecontacts ruvc-hybrid-contacts.txt resout ruvc-hybrid-residues.txt  distance 4 out ruvc-hyrbid-count.txt  first 
+nativecontacts :1623-1642,1726-1745 :83-112,307-459  writecontacts rec1-hybrid-contacts.txt resout rec1-hybrid-residues.txt  distance 4 out rec1-hyrbid-count.txt  first
+nativecontacts :1623-1642,1726-1745 :459-858  writecontacts rec3-hybrid-contacts.txt resout rec3-hybrid-residues.txt  distance 4 out rec3-hyrbid-count.txt  first
+nativecontacts :1623-1642 :1726-1745  writecontacts sgRNA-tDNA-contacts.txt resout sgRNA-tDNA-residues.txt  distance 4 out sgRNA-tDNA-count.txt  first
+nativecontacts :1756-1764 :1716-1725  writecontacts ntDNA-tDNA-contacts.txt resout ntDNA-tDNA-residues.txt  distance 4 out ntDNA-tDNA-count.txt  first
